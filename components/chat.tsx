@@ -97,7 +97,7 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
                   <div className="flex flex-1 items-center">
                     <Input
                       name="prompt"
-                      placeholder="Tanya apa aja bebasss...semua pertanyaan kita libasss"
+                      placeholder="Tanya apa aja bebasss..."
                       onChange={(e) => setInput(e.target.value)}
                       value={input}
                       autoFocus
@@ -197,7 +197,7 @@ export function Chat({ modelId = DEFAULT_MODEL }: { modelId: string }) {
               <div className="flex flex-1 items-center">
                 <Input
                   name="prompt"
-                  placeholder="Tanya apa aja bebasss...semua pertanyaan kita libasss"
+                  placeholder="Tanya apa aja bebasss..."
                   onChange={(e) => setInput(e.target.value)}
                   value={input}
                   className="flex-1 border-0 bg-transparent focus-visible:ring-0 focus-visible:ring-offset-0 text-base placeholder:text-muted-foreground/60 font-medium"
